@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Drummers Summit
+# Music Summit
 
 > This is a personal portfolio project for a Music Fest referred to as the drummers summit
 
