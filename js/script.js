@@ -2,7 +2,6 @@ const speaker = document.getElementById('speakers');
 const humburger = document.querySelector('.mobile-menu-bar');
 const navmenu = document.querySelector('.desktop-menu');
 const menu = document.querySelector('.desktop-menu');
-const body = document.querySelector('body');
 const link = document.querySelectorAll('.nav-link')
 
 const speakerObj = [
@@ -34,7 +33,7 @@ const speakerObj = [
       name: 'Henry Barnes',
       image: './img/speaker-5.jpg',
       role: 'Drum Music Directior',
-      text: 'Let\s talk about drum rudiments!',
+      text: 'Let\'s talk about drum rudiments!',
     },
     {
       name: 'Mark Enze',
@@ -45,7 +44,7 @@ const speakerObj = [
 ]
 
 let presenter = '';
-speakerObj.forEach((child, index) => {
+speakerObj.forEach((child) => {
   presenter = `
   <div class="speaker">
   <div class="speaker-photo"></div>
