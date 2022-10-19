@@ -10,9 +10,9 @@
 - HTML, CSS, JavaScirpt
 - GIT 
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Music Summit](https://tamunokuro.github.io/music-summit/)
 
 
 ## Getting Started
