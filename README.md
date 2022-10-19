@@ -31,9 +31,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Tamunokuro)
-- Twitter: [@twitterhandle](https://twitter.com/tamuno___)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/joshua-blue-jack)
+- GitHub: [@Tamunokuro](https://github.com/Tamunokuro)
+- Twitter: [@tamuno___](https://twitter.com/tamuno___)
+- LinkedIn: [Joshua Blue-Jack](https://linkedin.com/in/joshua-blue-jack)
 
 ## 🤝 Contributing
 
