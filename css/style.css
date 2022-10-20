@@ -134,7 +134,6 @@ a {
 
 .program-topic {
   color: #ef513c;
-
 }
 
 .program-info {
@@ -161,7 +160,7 @@ a {
 }
 
 .program-text {
-  width: 50%
+  width: 50%;
 }
 
 .program-list {
