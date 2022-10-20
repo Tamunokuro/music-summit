@@ -19,7 +19,7 @@ const speakerObj = [
     },
     {
       name: 'Mason Bundy',
-      image: './img/speaker-3.jpg',
+      image: './img/speaker7.jpg',
       role: 'Sound Engineer',
       text: 'Mason: I can make the sound come alive',
     },

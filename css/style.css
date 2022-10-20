@@ -32,6 +32,10 @@ a {
   cursor: pointer;
 }
 
+.logo {
+  height: 100px;
+}
+
 .first-navbar {
   background-color: rgb(62, 62, 62);
   color: #fff;
@@ -90,7 +94,7 @@ a {
 }
 
 .intro-section {
-  background-image: url('/img/header-background.jpg');
+  background-image: url('../img/header-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -129,7 +133,7 @@ a {
 }
 
 .program-info {
-  background-image: url('/img/pattern_bg.png');
+  background-image: url('../img/pattern_bg.png');
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
@@ -155,7 +159,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   width: 100%;
   padding: 10px;
   margin: 3px;
@@ -213,7 +217,7 @@ a {
 }
 
 .speaker-photo {
-  background-image: url('/img/speaker-bg.png');
+  background-image: url('../img/speaker-bg.png');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 60px;
@@ -244,10 +248,12 @@ a {
 }
 
 .sponsors {
+  background-color: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px;
+  color: #fff;
 }
 
 .sponsor-logos {
@@ -258,18 +264,23 @@ a {
   gap: 20px;
 }
 
+.sponsor {
+  width: 200px;
+}
+
 footer {
-  background-image: url(/img/pattern_bg.png);
-  background-color: #272a31;
-  color: #fff;
   display: flex;
-  flex-wrap: wrap;
-  padding: 80px;
+  padding: 15px 25px;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-details {
+  padding: 0 25px;
 }
 
 #about-section {
-  background-image: url('/img/header-background.jpg');
+  background-image: url('../img/header-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -332,7 +343,7 @@ footer {
 }
 
 .event_one {
-  background-image: url('/img/event1.jpg');
+  background-image: url('../img/event1.jpg');
   background-size: cover;
   background-blend-mode: darken;
   background-color: #ef513c;
@@ -342,7 +353,7 @@ footer {
 }
 
 .event_two {
-  background-image: url('/img/event3.jpg');
+  background-image: url('../img/event3.jpg');
   background-size: cover;
   background-blend-mode: darken;
   background-color: #ef513c;
@@ -419,7 +430,7 @@ footer {
   }
 
   .intro-section {
-    background-image: url('/img/header-background.jpg');
+    background-image: url('../img/header-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -439,6 +450,17 @@ footer {
     flex-direction: column;
     width: 100%;
     margin: auto;
+  }
+
+  .program-list {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    margin: 3px;
   }
 
   .speaker-container {
@@ -495,7 +517,7 @@ footer {
   }
 
   .event_one {
-    background-image: url('/img/event1.jpg');
+    background-image: url('../img/event1.jpg');
     background-size: cover;
     background-blend-mode: darken;
     background-color: #ef513c;
@@ -505,7 +527,7 @@ footer {
   }
 
   .event_two {
-    background-image: url('/img/event3.jpg');
+    background-image: url('../img/event3.jpg');
     background-size: cover;
     background-blend-mode: darken;
     background-color: #ef513c;
