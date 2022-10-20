@@ -132,6 +132,11 @@ a {
   text-align: center;
 }
 
+.program-topic {
+  color: #ef513c;
+
+}
+
 .program-info {
   background-image: url('../img/pattern_bg.png');
   background-repeat: repeat;
@@ -143,6 +148,7 @@ a {
   background-color: #272a31;
   margin-bottom: 50px;
   color: #fff;
+  align-items: center;
 }
 
 .program {
@@ -154,6 +160,10 @@ a {
   margin: 60px;
 }
 
+.program-text {
+  width: 50%
+}
+
 .program-list {
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
@@ -161,8 +171,10 @@ a {
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  height: 228px;
   padding: 10px;
   margin: 3px;
+  text-align: center;
 }
 
 /* .program-icon {
@@ -180,10 +192,8 @@ a {
 }
 
 .see-more {
-  text-align: right;
-  margin-bottom: 100px;
+  display: block;
   text-decoration: underline;
-  margin-right: 100px;
 }
 
 .speaker-section {
@@ -270,7 +280,7 @@ a {
 
 footer {
   display: flex;
-  padding: 15px 25px;
+  padding: 30px 100px;
   justify-content: space-between;
   align-items: center;
 }
@@ -455,10 +465,10 @@ footer {
   .program-list {
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    height: auto;
     padding: 10px;
     margin: 3px;
   }

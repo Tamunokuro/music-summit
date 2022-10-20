@@ -31,7 +31,7 @@ const speakerObj = [
     },
     {
       name: 'Henry Barnes',
-      image: './img/speaker-5.jpg',
+      image: './img/speaker-8.jpg',
       role: 'Drum Music Directior',
       text: 'Let\'s talk about drum rudiments!',
     },
