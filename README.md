@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - Install GIT
 
 ### Setup
-- Run ***git clone git@github.com:Tamunokuro/music-summit.git***
+- Run `git clone git@github.com:Tamunokuro/music-summit.git`
 
 
 ## Authors
